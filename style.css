@@ -1,0 +1,101 @@
+.body{
+    margin: 0;
+    height: 100vh;
+
+    background: linear-gradient(
+        180deg,
+        #bfd3ea 0%,
+        #d7c2eb 50%,
+        #f08ac6 100%
+    );
+
+    background-repeat: no-repeat;
+}
+.card{
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    
+
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .avatar{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+.avatar img{
+    width: 50px;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.input-group input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+.input-oum{
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.input-oum input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+.junior{
+   padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 90%;
+    color: white;
+    background-color: pink;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
