@@ -44,12 +44,9 @@
 }
 .input-group{
     display: flex;
-    align-items: center;
-    background: #f1f1f1;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 20px;
-    
+    flex-direction: column;
+    margin: 12px 0px;
+    gap: 20px;
 }
 
 .input-group input{
@@ -58,23 +55,27 @@
     margin-left: 10px;
     width: 100%;
 }
-.input-oum{
+
+.input-row {
     display: flex;
     align-items: center;
-    background: #f1f1f1;
+    background: #e1d6e3;
     padding: 15px;
-    margin: 20px;
     border-radius: 20px;
+    gap: 3px;
 }
-.input-oum input{
+
+.input-field {
     border: none;
     outline: none;
-    margin-left: 10px;
     width: 100%;
+    background: transparent;
+    font-size: 14px;
 }
-.junior{
+
+.btn-login{
    padding: 15px;
-    margin: 20px;
+    margin-top: 8px;
     border-radius: 20px;
     border: none;
     outline: none;
